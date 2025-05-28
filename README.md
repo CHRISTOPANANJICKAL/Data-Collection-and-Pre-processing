@@ -15,3 +15,8 @@ Then I have written classes and methods to ingest, clean and transform the data.
 2. [customer.csv](https://www.kaggle.com/datasets/bhadramohit/customer-shopping-latest-trends-dataset) - customer data
 3. [fashion_products](https://www.kaggle.com/datasets/bhanupratapbiswas/fashion-products) - products dataset
 4. transactions_generated.csv - synthetic dataset generated using the `generate_synthetic_data` method in `SyntheticDataUtils` class in `utils/synthetic_data_utils.py`
+
+# **My Personal Opensource Projects**
+1. [Fast Cached Network Image for Flutter - published on  official package manager of Flutter](https://github.com/CHRISTOPANANJICKAL/fast_cached_network_image)
+2. [My portfolio - anyone can clone, host by editing a single json file](https://github.com/CHRISTOPANANJICKAL/portfolio)
+3. [A quick input or data validator for Dart inspired from Django validators - This is also published on Flutter package manager](https://github.com/CHRISTOPANANJICKAL/fast_validator)
