@@ -1,4 +1,6 @@
+from dataclasses import dataclass
 from enum import Enum
+
 
 class Gender(Enum):
     MALE = 1
@@ -9,6 +11,7 @@ class Gender(Enum):
             if value.lower().strip() == Gender.MALE.name.lower(): return  Gender.MALE
             return  Gender.FEMALE
 
+@dataclass
 class CustomerModel:
     def __init__(
         self,
@@ -32,7 +35,8 @@ class CustomerModel:
             location=raw.get("Location"),
         )
 
-    # def print_sample(self): print(f"Name: {self.name}, Age: {self.age}, Gender: {self.gender}, Blood Type: {self.blood_type}, Medical Condition: {self.medical_condition}, Date of Admission: {self.date_of_admission}, Doctor: {self.doctor}, Hospital: {self.hospital}, Insurance Provider: {self.insurance_provider}, Billing Amount: {self.billing_amount}, Room Number: {self.room_number}, Admission Type: {self.admission_type}, Discharge Date: {self.discharge_date}, Medication: {self.medication}, Test Results: {self.test_results}")
+
+
 
 
 

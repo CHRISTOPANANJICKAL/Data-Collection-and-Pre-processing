@@ -1,3 +1,7 @@
+from dataclasses import dataclass
+
+
+@dataclass
 class ProductModel:
     def __init__(
         self,

@@ -62,7 +62,11 @@ class SyntheticDataUtils:
                         quantity=sales.quantity,
                         price=product.price,
                         coupon_code=coupon_code,
-                        shipping_city=customer.location
+                        shipping_city=customer.location,
+                        customer_age=0,
+                        customer_gender=None,
+                        discounted_price=0,
+                        days_since_purchase=0,
                     )
                 )
 

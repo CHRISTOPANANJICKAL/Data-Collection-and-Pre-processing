@@ -14,3 +14,11 @@ class Constants:
     @staticmethod
     def synth_generated_csv_file_path() -> str:
             return 'data/transactions_generated.csv'
+
+    @staticmethod
+    def cleaned_json_file_path() -> str:
+            return 'data/cleaned/transactions_cleaned.json'
+
+    @staticmethod
+    def cleaned_parquet_file_path() -> str:
+            return 'data/cleaned/transactions_cleaned_parquet.parquet'
